@@ -17,8 +17,8 @@ canvas.onclick = function() {
 
 var moon = new Image(); 
 moon.src = '011.png';
-var y = Math.random() * (600 - 1) + 1;
-var x = -200;
+var x = Math.random() * (600 - 1) + 1;
+var y = -200;
 
 var start = Date.now();
 
