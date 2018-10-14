@@ -34,8 +34,8 @@ function draw()
 	ctx.fillStyle = '#141822';
     ctx.fillRect(x,y,160,170);
     ctx.drawImage(moon,x,y);
-    y--;
-    x++;
+    y++;
+    x--;
     window.requestAnimationFrame(draw);
 }
 , 1000)
