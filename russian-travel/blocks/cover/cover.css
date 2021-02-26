@@ -1,0 +1,37 @@
+.cover {
+  margin: 92px auto 0;
+  position: relative;
+  display: flex;
+  align-items: stretch;
+  justify-content: stretch;
+  max-width: 1184px;
+  min-height: calc(0.625 * (99vw));
+  background-size: cover;
+  background-image: url(../../images/naSobakah.jpg);
+  background-repeat: no-repeat;
+  z-index: 1;
+}
+@media screen and (min-width: 1279px) {
+  .cover {
+    max-width: 1184px;
+    min-height: 740px;
+  }
+}
+
+@media screen and (min-width: 1023px) {
+  .cover {
+    margin-top: 92px;
+  }
+}
+
+@media screen and (min-width: 767px) {
+  .cover {
+    margin-top: 88px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .cover {
+    margin-top: 64px;
+  }
+}

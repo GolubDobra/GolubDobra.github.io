@@ -1,0 +1,17 @@
+.place__main-text {
+  display: flex;
+  flex-direction: column;
+}
+
+@media screen and (max-width: 768px) {
+  .place__main-text {
+    max-width: 90vw;
+    margin: 0 auto;
+  }
+}
+
+@media screen and (max-width: 390px) {
+  .place__main-text {
+    max-width: 288px;
+  }
+}
